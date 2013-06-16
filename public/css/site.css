@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Philosopher:400,700&subset=latin');
 
 html, body {border:0;margin:0;padding:0; background-color: #d0dbee;background-image: url('../images/bgnoise_lg.png');background-repeat:repeat;font-family: 'Philosopher, Arial, Helvetica, Geneva, sans-serif';
-; font-weight: 400;}
+ font-weight: 400;}
 
 /* login and register box*/
 #login {margin: 0 auto; padding: 0; width: 330px; height: 400px;}
@@ -36,8 +36,11 @@ html, body {border:0;margin:0;padding:0; background-color: #d0dbee;background-im
 
 
 /*files */
-#main_container .content .box{min-width: 300px;min-height: 140px;padding-top: 15px;margin-top: 50px; float: left;margin-left: 60px; background-color: #fff;
-}
+#main_container .content .box{min-width: 300px;min-height: 140px;padding-top: 15px;margin-top: 50px; float: left;margin-left: 60px; background-color: #fff;border: 2px solid #fbfbfb;-webkit-box-shadow: 3px 3px 3px -2px #87a4d6;-moz-box-shadow: 3px 3px 3px -2px #87a4d6;box-shadow: 3px 3px 3px -2px #87a4d6;}
+#main_container .content .box h1{text-align: center; color: #5072b7; padding-bottom: 15px;}
+#main_container .content .box ul {margin-left: 25px;}
+#main_container .content .box ul li{list-style-image:url('../images/caps.png');clear: both;color: #990000;text-decoration: none;}
+#main_container .content .box ul li a,a:active,a:after,a:focus{text-decoration: none;font-size: 14px;}
 
 /* list page */
 #main_container .content_p{width: 910px;margin: 0 auto; padding: 0; }

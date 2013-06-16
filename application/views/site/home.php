@@ -75,6 +75,7 @@ echo doctype();
                                  
                                  if(!empty($my_list))
                                  {
+                                     echo '<h1> My shopping lists</h1>';
                                       echo '<ul>';
                                   foreach ($my_list as $list)
                                   {
@@ -106,6 +107,7 @@ echo doctype();
                                  
                                  if(!empty($shared_list))
                                  {
+                                     echo '<h1>Shared with me </h1>';
                                       echo '<ul>';
                                   foreach ($shared_list as $shared)
                                   {
@@ -123,7 +125,7 @@ echo doctype();
                                  }
                                  else
                                  {
-                                     echo 'No shared list ';
+                                     echo '<h1>No shared list</h1>';
                                  }
                                  ?>
                                 
