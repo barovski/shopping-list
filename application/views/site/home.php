@@ -75,11 +75,8 @@ echo doctype();
                                  
                                  if(!empty($my_list))
                                  {
-<<<<<<< HEAD
 
                                      echo '<h1> My shopping lists</h1>';
-=======
->>>>>>> 39d66232c0aebdc8444044bca35c8ad73303a54c
 
 
                                       echo '<ul>';
@@ -113,11 +110,8 @@ echo doctype();
                                  
                                  if(!empty($shared_list))
                                  {
-<<<<<<< HEAD
 
                                      echo '<h1>Shared with me </h1>';
-=======
->>>>>>> 39d66232c0aebdc8444044bca35c8ad73303a54c
 
                                       echo '<ul>';
                                   foreach ($shared_list as $shared)
@@ -136,13 +130,10 @@ echo doctype();
                                  }
                                  else
                                  {
-<<<<<<< HEAD
 
                                      echo '<h1>No shared list</h1>';
-=======
 
                                      echo 'No shared list ';
->>>>>>> 39d66232c0aebdc8444044bca35c8ad73303a54c
 
                                  }
                                  ?>
