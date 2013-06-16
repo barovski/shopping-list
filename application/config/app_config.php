@@ -8,3 +8,4 @@ $config['Site_title']='Shopping list demo';
 $config['upload_path'] = './uploads/';
 
 
+
