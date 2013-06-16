@@ -1,6 +1,0 @@
-RewriteEngine on
-RewriteBase /shopping-list/
-RewriteCond $1 !^(/index\.php|public|/images|/js|/css|/robots\.txt|/favicon\.ico)
-RewriteCond $1 !^(index\.php)
-RewriteRule ^(.+)$ index.php?$1 [L]  
-  
